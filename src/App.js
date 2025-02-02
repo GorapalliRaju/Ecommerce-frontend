@@ -56,6 +56,7 @@ function App() {
       <AddProduct refreshProducts={fetchProducts} />
       <ProductList addToCart={addToCart} products={products} />
       <Cart products={products} cartItems={cartItems} removeFromCart={removeFromCart} />
+      <p style={{textAlign:'center'}}>Made with 🧡 By Raju Gorapalli</p>
     </div>
   );
 }
