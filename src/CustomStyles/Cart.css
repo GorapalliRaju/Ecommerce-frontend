@@ -1,0 +1,92 @@
+/* Cart Container */
+.cart {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.cart h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Empty Cart Message */
+.empty-cart {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+}
+
+/* Cart List */
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual Cart Item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  gap: 10px;
+}
+
+/* Product Image */
+.cart-item-img {
+  width: 70px;  /* ✅ Increased size */
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Item Details */
+.cart-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Product Name (Multi-line Support) */
+.cart-item-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 250px; /* ✅ Prevents overflow */
+}
+
+/* Product Price */
+.cart-item-price {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Remove Button */
+.remove-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  align-self: flex-start;
+}
+
+.remove-btn:hover {
+  background-color: #cc0000;
+}
